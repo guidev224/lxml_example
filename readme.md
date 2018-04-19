@@ -1,7 +1,6 @@
 A sample code on how to use [lxml](http://lxml.de) library to generate an xml file.
 Example of data, it is a list of dictionary
-```
-python
+```python
 [
         {
             'tag': 'tag_name', 'value': 'value', 'attrs': {'attribute1': 'attribute1', 'attribute2': 'attribute2'},
