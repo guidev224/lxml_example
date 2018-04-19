@@ -18,3 +18,15 @@ Example of data, it is a list of dictionary
 2. *value* is the value of the tag
 3. *attrs* contain a dictionary of the tag's attributes
 4. *nsmap* contain a dictionary of the tag's namespaces
+
+
+## Output
+This a the output (the content of the output.xml file) when you execute the example.py file.
+```xml
+<RootElement>
+  <tag_name xmlns:ns1="ns1" xmlns:ns2="ns2" attribute1="attribute1" attribute2="attribute2">value</tag_name>
+  <another_tag>
+    <another_tag_c>value1</another_tag_c>
+  </another_tag>
+</RootElement>
+```
