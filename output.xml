@@ -1,0 +1,6 @@
+<RootElement>
+  <tag_name xmlns:ns1="ns1" xmlns:ns2="ns2" attribute1="attribute1" attribute2="attribute2">value</tag_name>
+  <another_tag>
+    <another_tag_c>value1</another_tag_c>
+  </another_tag>
+</RootElement>

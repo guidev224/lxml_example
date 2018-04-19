@@ -18,13 +18,13 @@ def generate():
     # Call the render method
     render(elmts, page)
     # Open the homemade.xml file on write mode
-    file = open('homemade.xml', 'w')
-    # Write the doc cotent into the file
+    file = open('output.xml', 'w')
+    # Write the doc content into the file
     doc.write(file, pretty_print=True)
     # Optional import os module to open the file with the default
     # application for the give file extension if there is any
     import os
-    os.startfile('homemade.xml')
+    os.startfile('output.xml')
 
 
 generate()
