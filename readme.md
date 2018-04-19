@@ -21,7 +21,7 @@ Example of data, it is a list of dictionary
 
 
 ## Output
-This a the output (the content of the output.xml file) when you execute the example.py file.
+This is the output (the content of the output.xml file) when you execute the example.py file.
 ```xml
 <RootElement>
   <tag_name xmlns:ns1="ns1" xmlns:ns2="ns2" attribute1="attribute1" attribute2="attribute2">value</tag_name>
